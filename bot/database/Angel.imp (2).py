@@ -477,7 +477,7 @@ class Database(metaclass=Singleton):
             file_name = file.get("file_name")
             file_type = file.get("file_type")
             file_caption = file.get("caption")
-        return file_id, file_name, file_caption, file_type
+        return file_id, file_name, file_caption,📂 file_type
 
 
     async def cf_count(self, group_id: int, channel_id: int):
